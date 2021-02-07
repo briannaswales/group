@@ -92,3 +92,11 @@
     color: rgb(172, 172, 172);
 }
 
+.img-class {
+    display: none;
+}
+@media (min-width: 992px) {
+    .img-class {
+         display: block;
+    }
+}
