@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="Description" content="Enter your description here" />
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -19,8 +18,48 @@
 
 <body>
 
+    <nav class="navbar navbar-expand-md mt-2">
+        <a class="navbar-brand" href="#" >
+            <img src="assets/Logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-expanded="false" aria-controls="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html" >Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="how-it-works.html">How It Works</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Support</a>
+                </li>
+            </div>
+        </ul>
+        <form class="d-flex">
+            <button type="button" href="sign-in.html" class="btn btn-outline-primary btn-sm mx-4 text-nowrap rounded">
+                <a href="sign-in.html">Sign In</a>
+            </button>
+            <button type="button"  class="btn btn-primary text-nowrap btn-sm rounded" id="tryitfree">
+                <a class="sign-up" href="sign-up.html">Try It Free</a>
+            </button>
+        </form>
+    </nav>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
 
-<!-- header -->
+
+
+  
+  <!-- header -->
     <div class="container">
         <div class="row">
             <div class="col-6 mx-auto">
@@ -35,13 +74,13 @@
                     without the technicals hurdles.
                 </p>
                 <button type="button" class="btn btn-primary btn-lg">
-                    <a href="group\sign_up" style="color:white; text-decoration: none">Sign Up Free >></a>
+                    <a href="sign-up.html" style="color:white; text-decoration: none">Sign Up Free >></a>
                 </button>
                 <button type="button" class="btn btn-outline-primary btn-lg m-2">
                     <img style="height:20px" src="/assets/Icons/chat_icon.png" alt="chat_icon"> Chat With Us
                 </button>
                 <p class="ph">
-                    Already using <strong>Double Tap?</strong> <a class="ph" href="group\sign_in">Sign In</a>
+                    Already using <strong>Double Tap?</strong> <a class="ph" href="sign-in.html">Sign In</a>
                 </p>
                 <!-- links container -->
                 <div class="container">
@@ -53,7 +92,7 @@
                 </div>
                 <!-- links container -->
             </div>
-            <div class="col-6 mx-auto">
+            <div class="col-6 mx:auto img-class">
                 <img style="height:600px" src="/assets/Header-Side.png" alt="Header-Side">
             </div>
         </div>
@@ -62,9 +101,187 @@
     <!-- header -->
 
 
+<!-- HOME PAGE HEADING TEXT -->
+<div class="container px-3">
+    <div class="row col- text-center bg-white">
+        <hr class="solid mt-5">
+        <h2 class="text-center pt-5">Start to Explore Double Tap</h2>
+        <p class="text-center mb-5 firsttext">A new and better way for small businesses to manage their customer base, payments and keep track of internal tasks.</p>
+    </div>
+</div> 
+
+<!-- HOME PAGE FIRST CONTAINER FOUR CARDS SPACED EVENLY -->
+
+<div class="container px-1 four-cards">
+    <div class="row gx-1 mx-5 card-row">
+        <div class="col-12 col-m-2 col-lg-2 p-3">
+            <div class="card singlecards mr-sm-0 mr-m-5 mr-lg-5 mr-xl-5" id="single-card">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="rgb(114, 112, 112)"
+                 class="bi bi-person-fill" viewBox="0 0 16 16">
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                </svg>
+                <p class="card-text text-center">Retain</p>
+            </div>
+        </div>
+        <div class="col-12 col-m-2 col-lg-2 p-3">
+            <div class="card singlecards mr-m-5 mr-lg-5 mr-xl-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="rgb(114, 112, 112)"
+                 class="bi bi-bar-chart" viewBox="0 0 16 16">
+                    <path d="M4 11H2v3h2v-3zm5-4H7v7h2V7zm5-5v12h-2V2h2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3z"/>
+                </svg>
+                <p class="card-text text-center">Reporting</p>
+            </div>
+        </div>
+        <div class="col-12 col-m-2 col-lg-2 p-3">
+            <div class="card singlecards mr-m-5 mr-lg-5 mr-xl-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="rgb(114, 112, 112)"
+                 class="bi bi-arrow-left-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5zm14-7a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5z"/>
+                </svg>
+                  <p class="card-text text-center">Convert</p>
+            </div>
+        </div>
+        <div class="col-12 col-m-2 col-lg-2 p-3">
+            <div class="card singlecards">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="rgb(114, 112, 112)" class="bi bi-wallet2" viewBox="0 0 16 16">
+                    <path d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"/>
+                </svg>
+                  <p class="card-text text-center">Payments</p>
+             </div>
+        </div>
+    </div>
+</div>
+
+    <!-- HOME PAGE SECOND SECTION CONTAINER -->
+
+    <div class="card mb-3 mt-5 center justify-content-center container-fluid container2" style="max-width: 80%;">
+        <div class="row g-0 row-col-sm-1 row-col-m-1 row-col-lg-2 justify-content-center">
+          <div class="col-lg-5 img-fluid pt-5">
+            <img src="/group/images/credit-card-picture.png" class="card-img pt-5" alt="..." style="max-width: auto;">
+          </div>
+          <div class="col-lg-7">
+            <div class="card-body bg-primary text-white align-self-start container2text">
+                <h5 class="title">Start accepting payments with Ease</h5>
+                <br>
+                <p>Deliver the world of payment options and seamless checkout experiences, making it easy for your customers to pay you for your products and services.</p>
+                <ul>
+                    <ls>- Accept credit & debit cards, PayPal, ACH, Apple pay and more with the flick of a switch</ls>
+                    <br>
+                    <ls>- Process transactions in up to 32 different currencies.</ls>
+                    <br>
+                    <ls>- Integrate with popular payment gateways like Stripe, and Braintree</ls>
+                    <br>
+                    <ls>- Select from a variety of different checkout options and experiences</ls>
+                </ul>
+                <br>
+                <a href="#" class="btn learnmorebtn">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                  </svg></a> 
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- HOME PAGE THIRD SECTION BEFORE FOOTER -->
+
+<div class="container heading-container3 px-3 pt-6 pb-6">
+    <div class="row text-center bg-white">
+        <h2 class="text-center">Solutions to fit your Business Needs</h2>
+    </div>
+</div> 
+
+<div class="container-fluid container3">
+    <div class="row justify-content-center m-sm">
+        <div class="col-12 col-sm-8 col-m-6 col-lg-4">
+            <div class="card text-center border-0 pb-5 single-card-bottom">
+                <img class="card-img-top w-50 align-self-center" src="assets/Ellipse -1@2x.png" alt="Card image cap">
+                <div class="card-body align-self-center">
+                  <h5 class="card-title text-center">Email Dashboards</h5>
+                  <p class="card-text text-center pt-3 pb-3">Automate client responses, and keep track of any communication your team has with a client.</p>
+                  <a href="#" class="btn btn-light bg-white btn-outline-dark align">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                  </svg> </a>
+                </div>
+            </div>       
+        </div>
+        <div class="col-12 col-sm-8 col-m-6 col-lg-4">
+            <div class="card text-center border-0 pb-5 single-card-bottom">
+                <img class="card-img-top w-50 align-self-center" src="assets/Ellipse -1@2x.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Task Management</h5>
+                  <p class="card-text text-center pt-3 pb-3">Automate client responses, and keep track of any communication your team has with a client.</p>
+                  <a href="#" class="btn btn-light bg-white btn-outline-dark">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                  </svg> </a>
+                </div>
+            </div>      
+        </div>
+    </div>
+      <div class="row justify-content-center">
+        <div class="col-12 col-sm-8 col-m-6 col-lg-4">
+            <div class="card text-center border-0 pb-5 single-card-bottom">
+                <img class="card-img-top w-50 align-self-center" src="assets/Ellipse -1@2x.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Analytics</h5>
+                  <p class="card-text text-center pt-3 pb-3">Automate client responses, and keep track of any communication your team has with a client.</p>
+                  <a href="#" class="btn btn-light bg-white btn-outline-dark">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                  </svg> </a>
+                </div>
+            </div>      
+        </div>
+        <div class="col-12 col-sm-8 col-m-6 col-lg-4">
+            <div class="card text-center border-0 pb-5 single-card-bottom">
+                <img class="card-img-top w-50 align-self-center" src="assets/Ellipse -1@2x.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Project Calendars</h5>
+                  <p class="card-text text-center pt-3 pb-3">Automate client responses, and keep track of any communication your team has with a client.</p>
+                  <a href="#" class="btn btn-light bg-white btn-outline-dark w-m-100%">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                  </svg> </a>
+                </div>
+            </div>      
+        </div>
+      </div>
+</div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
+
 </body>
+<footer class="bg-primary text-white text-center text-lg-start">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+        <div class="row">
+    <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0 foot">
+                <h4 class="text-uppercase text-center">Try Double Tap Today!</h4>
+                <h6 class="text-center">Let's Get Started</h6>
+
+                <form class="d-flex justify-content-center">
+                    <button type="button" class="btn bg-white  btn-sm mx-4 text-nowrap rounded">
+                        <a href="sign-in.html">Get Started >></a>
+                    </button>
+                    <button type="button" class="btn bg-white text-nowrap btn-sm rounded">
+                        <img style="height: 20px" src="/assets/Icons/chat_icon.png" alt="chat_icon"> Chat With Us
+                    </button>
+                </form>
+                <p class="text-center">Free 14 day trial &#11054; Manage Customers in Minutes &#11054; Cancel at Anytime;</p>
+            </div>
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            </div>
+        <!--Grid column-->
+        </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+  </footer>
 
 </html>
