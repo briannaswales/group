@@ -127,3 +127,22 @@ ul.social {
       box-shadow: 3px 2px;
 
 }
+
+.sign-in-button {
+    height: 35px;
+    width: 160px;
+    background-color: blue;
+    padding: 3px;
+    font-weight: 500;
+}
+
+@media (min-width: 576px)
+.sign-in-button:hover {
+        text-decoration: none;
+          border: 3px solid white;
+          color: white;
+          background-color: transparent;
+          box-shadow: 3px 2px;
+    
+    }
+    
